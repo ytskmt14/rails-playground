@@ -11,3 +11,10 @@ AllCops:
     - "node_modules/**/*"
     - "Gemfile"
   NewCops: disable
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - lib/tasks/auto_annotate_models.rake
